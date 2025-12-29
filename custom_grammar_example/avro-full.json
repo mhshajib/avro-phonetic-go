@@ -1,0 +1,190 @@
+{
+    "vowel": "aeiouAEIOU",
+    "consonant": "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ",
+    "number": "0123456789",
+    "casesensitive": "OI",
+    "patterns": [
+        {
+            "find": "kh",
+            "replace": "খ"
+        },
+        {
+            "find": "gh",
+            "replace": "ঘ"
+        },
+        {
+            "find": "ch",
+            "replace": "চ"
+        },
+        {
+            "find": "jh",
+            "replace": "ঝ"
+        },
+        {
+            "find": "th",
+            "replace": "থ"
+        },
+        {
+            "find": "dh",
+            "replace": "ধ"
+        },
+        {
+            "find": "ph",
+            "replace": "ফ"
+        },
+        {
+            "find": "bh",
+            "replace": "ভ"
+        },
+        {
+            "find": "k",
+            "replace": "ক"
+        },
+        {
+            "find": "g",
+            "replace": "গ"
+        },
+        {
+            "find": "c",
+            "replace": "চ"
+        },
+        {
+            "find": "j",
+            "replace": "জ"
+        },
+        {
+            "find": "t",
+            "replace": "ত"
+        },
+        {
+            "find": "d",
+            "replace": "দ"
+        },
+        {
+            "find": "n",
+            "replace": "ন"
+        },
+        {
+            "find": "p",
+            "replace": "প"
+        },
+        {
+            "find": "b",
+            "replace": "ব"
+        },
+        {
+            "find": "m",
+            "replace": "ম"
+        },
+        {
+            "find": "l",
+            "replace": "ল"
+        },
+        {
+            "find": "r",
+            "replace": "র"
+        },
+        {
+            "find": "s",
+            "replace": "স"
+        },
+        {
+            "find": "h",
+            "replace": "হ"
+        },
+        {
+            "find": "y",
+            "replace": "য়"
+        },
+        {
+            "find": "a",
+            "replace": "া",
+            "rules": [
+                {
+                    "scope": "consonant",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "i",
+            "replace": "ি",
+            "rules": [
+                {
+                    "scope": "consonant",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "u",
+            "replace": "ু",
+            "rules": [
+                {
+                    "scope": "consonant",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "e",
+            "replace": "ে",
+            "rules": [
+                {
+                    "scope": "consonant",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "o",
+            "replace": "ো",
+            "rules": [
+                {
+                    "scope": "consonant",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "a",
+            "replace": "অ"
+        },
+        {
+            "find": "i",
+            "replace": "ই"
+        },
+        {
+            "find": "u",
+            "replace": "উ"
+        },
+        {
+            "find": "e",
+            "replace": "এ"
+        },
+        {
+            "find": "o",
+            "replace": "ও"
+        },
+        {
+            "find": "ta",
+            "replace": "টা",
+            "rules": [
+                {
+                    "scope": "punctuation",
+                    "type": "prefix"
+                }
+            ]
+        },
+        {
+            "find": "na",
+            "replace": "না",
+            "rules": [
+                {
+                    "scope": "!punctuation",
+                    "type": "suffix"
+                }
+            ]
+        }
+    ]
+}
