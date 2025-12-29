@@ -309,7 +309,7 @@ go test ./... -bench=.
 ## Credits
 
 - Avro Phonetic keyboard: original idea and grammar concept
-- PHP implementation reference: `imerfanahmed/avro-php`
+- PHP implementation reference: `https://github.com/imerfanahmed/avro-php`
 
 This project is an independent Go implementation and is not affiliated with the original Avro project.
 
